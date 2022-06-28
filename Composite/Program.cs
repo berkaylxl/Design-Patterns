@@ -27,7 +27,6 @@ namespace Composite
         {
             string Name { get; }
         }
-
         class Employee : IPerson,IEnumerable<IPerson>
         {
             List<IPerson> _subOrdinates =new List<IPerson>();
