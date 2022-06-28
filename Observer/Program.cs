@@ -24,7 +24,7 @@ namespace Observer
             public void Attach(Observer observer)
             {
                 _observers.Add(observer);
-            }
+            } 
             public void Detach(Observer observer)
             {
                 _observers.Remove(observer);
