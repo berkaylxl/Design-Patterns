@@ -21,7 +21,6 @@ namespace Bridge
             public string Title { get; set; }
             public string Text { get; set; }
         }
-
         class EmailSender : MessageBase
         {
             public override void Send(Body body)
