@@ -48,7 +48,7 @@ namespace Composite
             {
                 foreach (var subordinate in _subOrdinates)
                 {
-                    yield return subordinate;
+                   yield return subordinate;
                 }
             }
             IEnumerator IEnumerable.GetEnumerator()
