@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{20F2C71C-BADB-4712-9360-C3B687D0EE7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{A28A8193-FB13-4FA1-8181-DEDA16926547}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{20F2C71C-BADB-4712-9360-C3B687D0EE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F2C71C-BADB-4712-9360-C3B687D0EE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F2C71C-BADB-4712-9360-C3B687D0EE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28A8193-FB13-4FA1-8181-DEDA16926547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28A8193-FB13-4FA1-8181-DEDA16926547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28A8193-FB13-4FA1-8181-DEDA16926547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28A8193-FB13-4FA1-8181-DEDA16926547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
