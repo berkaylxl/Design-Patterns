@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeOfResponsibility", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template Method", "Template Method\Template Method.csproj", "{27F14DEF-1E3C-4C99-9B8B-7271573FF03B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{AEEB48C1-5572-4714-BC57-6614AD4E3270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{27F14DEF-1E3C-4C99-9B8B-7271573FF03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F14DEF-1E3C-4C99-9B8B-7271573FF03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F14DEF-1E3C-4C99-9B8B-7271573FF03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEB48C1-5572-4714-BC57-6614AD4E3270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEB48C1-5572-4714-BC57-6614AD4E3270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEB48C1-5572-4714-BC57-6614AD4E3270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEB48C1-5572-4714-BC57-6614AD4E3270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
