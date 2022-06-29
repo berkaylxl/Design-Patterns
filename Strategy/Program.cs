@@ -7,9 +7,7 @@ namespace Strategy
         static void Main(string[] args)
         {
            CustomerManager customerManager = new CustomerManager();
-            customerManager.CreditCalculatorBase = new After2010CreditCalculator();
-            customerManager.Save();
-         
+           customerManager.Save();
         }
         abstract class CreditCalculatorBase
         {
@@ -29,16 +27,31 @@ namespace Strategy
                 Console.WriteLine("Credit calculated using before 2010");
             }
         }
-
         class CustomerManager
         {
             public CreditCalculatorBase CreditCalculatorBase { get; set; }
             public void Save()
             {
+                CreditCalculatorBase = StrategyControl("bank");
                 CreditCalculatorBase.Calculate();
                 Console.WriteLine("Saved");
+            } 
+            private CreditCalculatorBase StrategyControl(string strategy)
+            {
+                //örnek strategy bloğu
+                if (strategy == "bank")
+                {
+                    return new Before2010CreditCalculator();
+                    
+                }
+                else
+                {
+                    return new After2010CreditCalculator();
+                }
             }
         }
+
+        
 
     }
 }
